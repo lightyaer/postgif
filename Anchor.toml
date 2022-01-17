@@ -1,0 +1,12 @@
+[programs.devnet]
+postgif = "BpSyQTheJEzKvc8H5EUUhf2sEg6cJB7YzGy1oj2f1jQr"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/lightyaer/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
